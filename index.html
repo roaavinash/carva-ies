@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 60vw;
+    height: 80vh;
+   border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.parent1{
+   width: 35%;
+   height: 100%;
+   background-color: #e38826;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+}
+.parent2{
+    width: 35%;
+   height: 100%;
+   background-color: #006970;
+}
+.parent3{
+    width: 35%;
+    height: 100%;
+    background-color: #004241;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.child{
+    width: 100%;
+  padding: 2rem;
+  
+   display: flex;
+   justify-content: space-between;
+  align-items: center;
+   color: cornsilk;
+}
+button{
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+  <div class="parent1">
+    <div class="child"></div>
+    <div style="font-size: 40px;" class="child">SEDANS</div>
+    <div  class="child">Choose a sedan for its affordability and excellent, fuel economy. Ideal for curising in the city or on your next road trip.</div>
+    <div class="child"> <button>Learn More</button></div>
+
+  </div>
+  <div class="parent2">
+    <div class="child"></div>
+    <div style="font-size: 40px;" class="child">SUVS</div>
+    <div class="child">Take an SUV for its spaceters interior, power and versatility. Protected for your family vacation and ready for the adventures.</div>
+    <div class="child"><button>Learn more</button></div>
+  </div>
+  <div class="parent3">
+    <div class="child"></div>
+    <div style="font-size: 40px;" class="child">LUXURY</div>
+    <div class="child">Cruiser is the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury retanal and arrive in the style.</div>
+    <div class="child"><button>Learn more</button></div>
+  </div>
+</div>
+</body>
+</html>
